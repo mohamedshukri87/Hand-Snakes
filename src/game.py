@@ -44,13 +44,13 @@ def start():
             print("Coordinates" , int(xcoordinate), int(ycoordinate))
             print(int(ycoordinate) > 100)
 
-            if ( int(ycoordinate) > 250) and direction[-1] != "down":
+            if ( int(ycoordinate) > 200) and direction[-1] != "down":
                     direction.pop()
                     direction.append("up")
-            if ( int(xcoordinate) < -400 and direction[-1] != "left"):
+            if ( int(xcoordinate) < -200 and direction[-1] != "left"):
                         direction.pop()
                         direction.append("right")
-            if (int(xcoordinate) > 400) and direction[-1] != "right":
+            if (int(xcoordinate) > 200) and direction[-1] != "right":
                         direction.pop()
 
                         direction.append("left")
