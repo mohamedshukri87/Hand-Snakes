@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+mediapipe_env/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+
+# Logs & runtime files
+*.log
+dump.rdb
+mediapipe_env/
