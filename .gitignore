@@ -7,3 +7,6 @@ mediapipe_env/
 mediapipe_env_clean/
 venv/
 .env/
+
+.DS_Store
+Hand Snakes/__init__.py
